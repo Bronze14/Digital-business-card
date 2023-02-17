@@ -1,0 +1,121 @@
+
+.FinalApp{
+  width: 550px;
+  height: 868px;
+  background-color: #23252C;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+.mainBody{
+  height: 780px;
+  width: 317px;
+  background-color: #161619;
+  border-radius: 20px;
+  margin: auto;
+}
+.imgHead{
+  height: 317px;
+  margin: 0px;
+}
+.Name1-bar{
+  height: 399px;
+  background-color: #1A1B21;
+  padding-top: 10px;
+  margin-top: -5px;
+}
+.Name1{
+  font-family: 'Inter', sans-serif;
+  font-style: Bold;
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  margin: auto;
+  text-shadow: 1px 1px 2px #000000;
+}
+.Name2{
+  font-family: 'Inter', sans-serif;
+  font-style: Bold;
+  font-size: 12.8px;
+  font-weight: 400;
+  color: #F3BF99;
+  text-align: center;
+  margin-top: 1px;
+  margin-bottom: 5px;
+}
+.Email1{
+  font-family: 'Inter', sans-serif;
+  font-style: Bold;
+  font-size: 10.4px;
+  font-weight: 400;
+  color: #F5F5F5;
+  text-align: center;
+  margin-top: 1px;
+}
+.Button1{
+  width: 115px;
+  height: 34px;
+  margin-right: 17px;
+  margin-left: 36px;
+  font-family: 'Inter', sans-serif;
+  font-style: Bold;
+  font-weight: 500;
+  font-size: 14px;
+  color:#374151;
+  background-color: #D1D5DB;
+  border-radius: 8px;
+  border-color: #5093E2;
+}
+.Button2{
+  width: 115px;
+  height: 34px;
+  font-family: 'Inter', sans-serif;
+  font-style: Bold;
+  font-weight: 500;
+  font-size: 14px;
+  color:#FFFFFF;
+  margin-bottom: 33px;
+  background-color: #5093E2;
+  border-radius: 8px;
+  border-color: #5093E2;
+}
+.Button2 > img{
+  margin-right: 8px;
+}
+.About-bar1{
+  font-family: 'Inter', sans-serif;
+  font-style: Bold;
+  font-weight: 700;
+  font-size: 16px;
+  margin-left: 37px;
+  margin-bottom: -8px;
+  color: #F5F5F5;
+  line-height: 1.5;
+}
+.About-bar2{
+  font-family: 'Inter', sans-serif;
+  font-style: Bold;
+  font-weight: 400;
+  font-size: 10.24px;
+  color: #DCDCDC;
+  width: 247px;
+  height: 67px;
+  margin-left: 37px;
+  line-height: 1.5;
+  
+
+}
+.Footer-bar{
+  width: 317px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Footer-img{
+  height: 25px;
+  width: 25px;
+  margin: 0 14px;
+  margin-bottom: 5px;
+}
