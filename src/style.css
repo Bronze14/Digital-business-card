@@ -56,8 +56,8 @@
 .Button1{
   width: 115px;
   height: 34px;
-  margin-right: 17px;
-  margin-left: 36px;
+
+
   font-family: 'Inter', sans-serif;
   font-style: Bold;
   font-weight: 500;
@@ -66,6 +66,10 @@
   background-color: #D1D5DB;
   border-radius: 8px;
   border-color: #5093E2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
 .Button2{
   width: 115px;
@@ -75,14 +79,16 @@
   font-weight: 500;
   font-size: 14px;
   color:#FFFFFF;
-  margin-bottom: 33px;
+  margin-left: 20px;
   background-color: #5093E2;
   border-radius: 8px;
   border-color: #5093E2;
+  display: flex;
+  align-items: center;
+  justify-content: center;                  
+  
 }
-.Button2 > img{
-  margin-right: 8px;
-}
+
 .About-bar1{
   font-family: 'Inter', sans-serif;
   font-style: Bold;
@@ -118,4 +124,21 @@
   width: 25px;
   margin: 0 14px;
   margin-bottom: 5px;
+}
+.Button1 > img{
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+.Button2 > img{
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+.Button--Container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 33px;
 }

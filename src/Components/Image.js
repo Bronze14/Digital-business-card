@@ -4,7 +4,7 @@ import ImgWoman from '../images/Rectangle 90.png'
 
 export default function Image(){
     return (
-        <img src={ImgWoman} className="imgHead"/>
+        <img src={ImgWoman} alt="" className="imgHead"/>
         
     )
 }

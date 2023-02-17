@@ -8,10 +8,10 @@ import ImgGh from '../images/GitHub Icon.png'
 export default function Footer(){
     return (
         <div className="Footer-bar">
-        <img src={ImgTt} className="Footer-img"/>
-        <img src={ImgFb} className="Footer-img"/>
-        <img src={ImgIg} className="Footer-img"/>
-        <img src={ImgGh} className="Footer-img"/>
+        <img src={ImgTt} alt="" className="Footer-img"/>
+        <img src={ImgFb} alt="" className="Footer-img"/>
+        <img src={ImgIg} alt="" className="Footer-img"/>
+        <img src={ImgGh} alt="" className="Footer-img"/>
         </div>
 
         

@@ -1,5 +1,6 @@
 import React from 'react';
 import Vector from '../images/Vector.png'
+import Mail from '../images/Mail (1).png'
 export default function Main(){
     return (
 
@@ -7,8 +8,10 @@ export default function Main(){
             <h1 className='Name1'>Laura Smith</h1>
             <h5 className='Name2'>Frontend Developer</h5>
             <h6 className='Email1'>laurasmith.website</h6>
-            <button className='Button1'>Email</button>
-            <button className='Button2'><img src={Vector}/>LinkedIn</button>
+            <div className='Button--Container'>
+            <button className='Button1'><img src={Mail} alt=""/>Email</button>
+            <button className='Button2'><img src={Vector} alt=""/>LinkedIn</button>
+            </div>
             <h2 className="About-bar1">About</h2>
             <h5 className='About-bar2'>I am a frontend developer with a particular interest 
                     in making things simple and automating daily tasks. 
